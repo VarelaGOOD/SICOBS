@@ -313,7 +313,7 @@
               <h3 class="text-3xl font-semibold text-gray-800">
                 Etapa 2 - Funcionalidades
               </h3>
-              <span class="text-xl font-bold text-primary">50%</span>
+              <span class="text-xl font-bold text-primary">80%</span>
             </div>
             <p class="text-lg text-gray-500 text-lg mb-3">Mayo - Agosto</p>
             <h3 class="no-centro text-gray-800 mb-1 text-2xl">Consiste en...</h3>
@@ -326,39 +326,43 @@
             <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
               <div
                 class="progress-bar h-full bg-primary rounded-full"
-                style="width: 50%;"
+                style="width: 80%;"
               ></div>
             </div>
           </div>
 
           <!-- Etapa 3: en md+ abarca las 2 columnas (col-span-2), queda debajo -->
-          <div class="md:col-span-2 card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-            <div class="flex justify-between items-center mb-2">
-              <h3 class="text-3xl font-semibold text-gray-800">
-                Etapa 3 - Proveedores
-              </h3>
-              <span class="text-xl font-bold text-gray-400">0%</span>
-            </div>
-            <p class="text-gray-500 text-lg mb-3">Febrero a la fecha</p>
-            <h3 class="no-centro text-gray-800 mb-1 text-2xl">Consiste en...</h3>
-            <p class="text-gray-500 text-lg mb-3">
-              • Gestión del padrón de proveedores: registro, clasificación y
-              seguimiento dentro de la plataforma.
-            </p>
-            <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-              <div
-                class="progress-bar h-full bg-gray-300 rounded-full"
-                style="width: 0%;"
-              ></div>
-            </div>
-          </div>
-        </div>
+<div class="md:col-span-2 card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+  <div class="flex justify-between items-center mb-2">
+    <h3 class="text-3xl font-semibold text-gray-800">
+      Etapa 3 - Proveedores
+    </h3>
+    <!-- Aquí sólo mostramos el porcentaje como texto -->
+    <span class="text-xl font-bold text-primary">30%</span>
+  </div>
+  <p class="text-gray-500 text-lg mb-3">Febrero a la fecha</p>
+  <h3 class="no-centro text-gray-800 mb-1 text-2xl">Consiste en...</h3>
+  <p class="text-gray-500 text-lg mb-3">
+    • Gestión del padrón de proveedores: registro, clasificación y
+    seguimiento dentro de la plataforma.
+  </p>
+
+  <!-- EL CONTENEDOR “TRACK” de la barra -->
+  <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+    <!-- LA “BAR” VERDE debe ir dentro de este DIV -->
+    <div
+      class="progress-bar h-full bg-primary rounded-full"
+      style="width: 30%;"
+    ></div>
+  </div>
+</div>
+
       </section>
 
       <!-- Siguiente paso – Módulo Proveedores (vertical) -->
       <section class="mb-10 fade-in" style="animation-delay: 0.3s">
         <h2 class="text-4xl font-bold mb-6 text-gray-800">
-          Siguiente paso – SICOBS operativo
+          Siguiente paso – SICOBS 
         </h2>
         <div class="card bg-white p-6 rounded-lg shadow-sm border border-gray-100 max-w-4xl mx-auto">
           <!-- Contenedor principal centrado -->
